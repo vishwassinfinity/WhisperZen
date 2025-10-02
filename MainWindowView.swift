@@ -1,9 +1,15 @@
 import SwiftUI
 
 struct MainWindowView: View {
+    @StateObject private var preferences = UserPreferences.shared
+    
     var body: some View {
         ContentView()
-            .frame(width: 480, height: 320)
+            .frame(
+                width: preferences.popoverSize.dimensions.width,
+                height: preferences.popoverSize.dimensions.height
+            )
+            .preferredColorScheme(preferences.appearanceMode.colorScheme)
     }
 }
 

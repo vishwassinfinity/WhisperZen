@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct WhisperZenApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-            MenuBarExtra("WhisperZen", systemImage: "quote.bubble") {
-                ContentView()
-                    .frame(width: 320, height: 180)
-            }
+        Window("WhisperZen", id: "main") {
+            MainWindowView()
         }
+    }
 }

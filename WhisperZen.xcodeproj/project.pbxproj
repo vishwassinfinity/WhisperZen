@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D7B375802E8D96AC00BE47C5 /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B3757F2E8D96AC00BE47C5 /* MainWindowView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D74E2AED2E8C2D6400D40E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D74E2ADF2E8C2D6300D40E05 /* WhisperZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhisperZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E2AEC2E8C2D6400D40E05 /* WhisperZenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhisperZenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74E2AF62E8C2D6400D40E05 /* WhisperZenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhisperZenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B3757F2E8D96AC00BE47C5 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				D74E2AEF2E8C2D6400D40E05 /* WhisperZenTests */,
 				D74E2AF92E8C2D6400D40E05 /* WhisperZenUITests */,
 				D74E2AE02E8C2D6300D40E05 /* Products */,
+				D7B3757F2E8D96AC00BE47C5 /* MainWindowView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B375802E8D96AC00BE47C5 /* MainWindowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
